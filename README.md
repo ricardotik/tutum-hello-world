@@ -7,13 +7,13 @@ Created from original tutum repo for my own demonstrations.
 Usage
 -----
 
-To create the image `ricardouuu/tutum-hello-world`, execute the following command on the tutum-hello-world folder:
+To create the image `ricardouuu/hello-world`, execute the following command on the tutum-hello-world folder:
 
-	docker build -t ricardouuu/tutum-hello-world .
+	docker build -t ricardouuu/hello-world .
 
 You can now push your new image to the registry:
 
-	sudo docker push ricardouuu/tutum-hello-world
+	sudo docker push ricardouuu/hello-world
 
 
 Running your Hello World docker image
@@ -21,7 +21,7 @@ Running your Hello World docker image
 
 Start your image:
 
-	sudo docker run -d -p 80 ricardouuu/tutum-hello-world
+	sudo docker run -d -p 80 ricardouuu/hello-world
 
 It will print the new container ID (like `d35bf1374e88`). Get the allocated external port:
 
